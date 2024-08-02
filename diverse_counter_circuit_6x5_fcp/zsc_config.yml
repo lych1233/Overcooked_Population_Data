@@ -18,22 +18,6 @@ bc_test:
     policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
     train: false
     evaluation_agent: true
-bc_train:
-    featurize_type: bc
-    held_out: true
-    model_path:
-        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_train.pt
-    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
-    train: false
-    evaluation_agent: true
-bc_test:
-    featurize_type: bc
-    held_out: true
-    model_path:
-        actor: pop_data/diverse_counter_circuit_6x5_fcp/models/bc_test.pt
-    policy_config_path: config/diverse_counter_circuit_6x5/bc_policy_config.pkl
-    train: false
-    evaluation_agent: true
 bc_train_dummy:
     featurize_type: bc
     held_out: true
